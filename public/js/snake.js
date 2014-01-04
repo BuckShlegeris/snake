@@ -79,7 +79,7 @@
 
   Board.prototype.manageApple = function() {
     if (this.snakeHasApple()) {
-      this.snake.growing += 3;
+      this.snake.growing += 45/this.height;
       this.apple = new Apple(this.randomApplePosition());
       return true;
     }
