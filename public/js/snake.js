@@ -4,7 +4,7 @@
   var Snake = SnakeGame.Snake = function () {
     this.dir = "N";
     this.segments = [new Coord([5,5])];
-    this.growing = 0;
+    this.growing = 2;
   };
 
   Snake.prototype.move = function () {

@@ -65,9 +65,12 @@
     if (this.board.manageApple()) {
       this.increaseScore();
     };
-    this.render();
+
     if(this.board.checkLost()){
       this.lose();
+    }
+    else {
+      this.render();
     }
   }
 
