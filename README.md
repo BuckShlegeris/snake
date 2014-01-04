@@ -1,0 +1,4 @@
+snake
+=====
+
+Shrinking snake!
